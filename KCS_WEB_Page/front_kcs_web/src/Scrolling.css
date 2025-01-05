@@ -1,0 +1,13 @@
+.scrollingText{
+    height: 70px;
+    width: 100%;
+    background-color:  rgb(240, 42, 42);
+    color: white;
+    font-size: 20px;
+   
+}
+
+scrollingText p{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
