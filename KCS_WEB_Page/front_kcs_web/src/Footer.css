@@ -1,0 +1,77 @@
+.footerContainer{
+    display: flex;
+    height: 480px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.firstCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 80px;
+    padding-left: 170px;
+}
+
+.compInfo h1{
+     font-size: 25px;
+     font-weight: normal;
+}
+
+.compInfo h2{
+   margin-top: -10px;
+   font-size: 18px;
+   font-weight: lighter;
+
+}
+
+.compInfo > :nth-child(3) {
+    padding-top: -5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.compInfo > :nth-child(4) {
+    margin-top: -15px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.secondCol{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.secondCol p{
+    font-size: 19px;
+}
+
+.navigationFileds >:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.footerText{
+    margin-top: 40px;
+    margin-left: 300px;
+
+}
+
+.endText >:nth-child(1){
+    font-size: 45px;
+    color: rgb(231, 117, 4);
+    font-weight: bolder;
+}
+
+.endText >:nth-child(2),.endText >:nth-child(3){
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+.endText >:nth-child(4){
+    font-size: 30px;
+    font-style:italic;
+    font-weight: bold;
+}
+

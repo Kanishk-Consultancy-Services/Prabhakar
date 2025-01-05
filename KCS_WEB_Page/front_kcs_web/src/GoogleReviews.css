@@ -1,0 +1,130 @@
+.googleReviews h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 2000;
+    font-family: Simplified Arabic Bold;
+    margin-bottom: -30px;
+    padding-top: 60px;
+    
+  }
+  
+  .googleReviews{
+    background-color: rgb(234, 238, 244);
+    margin-top: 0px;
+  }
+  
+  .container{
+    background-color: rgb(234, 236, 238);
+  
+  }
+  
+  .reviewBoxes{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 30px;
+  }
+  
+  .revBox h2{
+    font-size: 12px;
+    font-weight:normal ;
+    padding: 10px 10px 0px 10px; 
+  }
+  
+  .revBox h3{
+    font-size: 15px;
+    font-weight: 7px;
+    padding: 10px 10px 0px 10px;
+  }
+  
+  .revBox{
+    height: 220px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+  
+  }
+  
+  .viewMoreBtn{
+    background-color: rgb(244, 74, 74);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    color: white;
+    font-size: 18px;
+    padding: 15px 10px;
+    border-radius: none;
+    border: none;
+  }
+  
+  
+  .sideBtn{
+    border: none;
+    font-size: 30px;
+    background-color:  rgb(255, 255, 255);
+    padding-bottom: 30px;
+    
+  }
+  
+  body{
+    background-color: white
+  }
+  
+  .brandsTitle{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 60px; */
+  }
+  
+  .brandsContainer{
+    background-color: white;
+    padding-top: 40px;
+  }
+  
+  .brandLogoImg{
+    height: 250px;
+    width:1000px
+  
+  }
+  
+  .reqForm {
+    margin: 10px;
+  }
+  
+  .reqFormTilte{
+  font-size:  25px;
+  font-weight: normal;
+  padding-top: 18px;
+  /* padding: 60px 10px 10px 23px; */
+  
+  
+  
+  }
+  
+  .reqFormBox{
+    margin-left: 160px;
+    justify-content: space-between;
+    background-color: rgb(250, 250, 250);
+    height: 580px;
+    width: 650px;
+    padding: 0px 10px 10px 0px;
+  
+  }
+  
+  .reqFormContainer{
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  input{
+    height: 30px;
+    width: 250px;
+    
+  }
+  
+  
+  

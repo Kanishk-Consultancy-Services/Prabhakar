@@ -1,0 +1,74 @@
+.TopBarLine{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(30, 25, 57);
+}
+
+.TopBarText h1{
+   color: white;
+   font-size: 17px;
+   font-family: Helvetica;
+   font-weight: normal;
+   padding: 3px 10px 10px 130px;
+
+}
+
+.TopBarText{
+    display: flex;
+}
+
+.TopBarText {
+    gap:10px;
+}
+
+.AllIcons{
+    color: white;
+    display: flex;
+    padding: 2px 10px 10px 630px;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+
+.TopBarText button{
+    height: 45px;
+    width:170px;
+    padding:10px 10px 10px 10px;
+    margin: 5px 2px 2px 2px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: rgb(226, 47, 47);
+    color: white;
+}
+  
+
+.socialMediaIcons{
+    font-size: 10px;
+}
+
+/* .LandingImage1{
+    height: 200px;
+    width: 600px;
+} */
+.LandingImage3{
+    height: 900px;
+    width: 100%;
+}
+
+.imageContainer{
+    background-color: white;
+
+    margin-top: 10px;
+}
+
+.TopNavigationFields {
+    display :flex;
+    font-size: 20px;
+    font-weight: normal;
+    gap:10px;
+    margin-bottom: -30px;
+}
+
+.TopNavigationFields p{
+    margin-left: 100px;
+}

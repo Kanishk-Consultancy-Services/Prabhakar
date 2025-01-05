@@ -1,8 +1,16 @@
-import './App.css';
+import React from "react";
+import './App.css'
+import MainPage from "./MainPage";
+import GoogleReviews from "./GoogleReviews";
+import Footer from "./Footer";
 
 function App() {
   return (
-   <h1>welcome to kanishk</h1>
+    <>
+    <MainPage></MainPage>
+    <GoogleReviews></GoogleReviews>
+    <Footer></Footer>
+    </>
   );
 }
 
