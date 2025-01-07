@@ -26,7 +26,7 @@
     display: flex;
     padding: 2px 10px 10px 630px;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -57,8 +57,8 @@
 
 .imageContainer{
     background-color: white;
-
-    margin-top: 10px;
+    
+    margin-top: 30px;
 }
 
 .TopNavigationFieldsContainer{
@@ -73,8 +73,17 @@
 
 .TopNavigationFields{
     display: flex;
-    padding-left: 530px;
-    font-size: 16px;
-    gap: 35px;
+     padding-left: 420px; 
+    /* padding-left: 50px;
+    margin-top: 10px; */
+    font-size: 18px;
+    gap: 32px;
 
 }
+
+.KcsLogo{
+    height: 90px;
+    width: 280px;
+    margin: 10px 10px 10px 20px;
+}
+

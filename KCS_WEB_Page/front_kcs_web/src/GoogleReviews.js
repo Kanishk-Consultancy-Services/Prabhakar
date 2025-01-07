@@ -48,28 +48,6 @@ const GoogleReviews = () => {
         <center><button className="viewMoreBtn">View More &rarr; </button></center>
         </div>
     
-    
-        {/* Our Participants Works At */}
-        <div className="brandsContainer">
-        <div className="brandsTitle">
-            <h1>Our Participants Works At</h1>
-        </div>
-
-        <div className="brandsLogs">
-            <center><img className="brandLogoImg" src={barndsLogoImg} alt="Brand Logo" /></center>
-        </div>
-    </div><div className="reqFormContainer">
-            <div className="reqFormBox">
-                <h1 className="reqFormTilte">Request A Call Back</h1>
-                <input placeholder="First name"></input>
-                <input placeholder="Last name"></input>
-                <input placeholder="Country code(91)"></input>
-                <input placeholder="Phone Number"></input>
-                <input placeholder="Email address"></input>
-                <input placeholder="Your Current Location"></input>
-                <input placeholder="msg"></input>
-            </div>
-        </div>
         </>
       
   )

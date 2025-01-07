@@ -5,6 +5,7 @@ import GoogleReviews from "./GoogleReviews";
 import Footer from "./Footer";
 import Scrolling from "./Scrolling";
 import AboutUs from "./AboutUs";
+import OurPartners from "./OurPartners";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <MainPage></MainPage>
     <AboutUs></AboutUs>
     <GoogleReviews></GoogleReviews>
+    <OurPartners></OurPartners>
     <Scrolling></Scrolling>
     <Footer></Footer>
     </>

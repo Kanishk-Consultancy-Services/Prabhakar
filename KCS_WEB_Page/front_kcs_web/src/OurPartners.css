@@ -1,0 +1,18 @@
+.brandsTitle{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 60px; */
+  }
+  
+  .brandsContainer{
+    background-color: white;
+    padding-top: 40px;
+  }
+  
+  .brandLogoImg{
+    height: 250px;
+    width:1000px
+  
+  }
+
+  

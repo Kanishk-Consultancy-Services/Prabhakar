@@ -75,3 +75,20 @@
     font-weight: bold;
 }
 
+.FooterKcsLogo{
+    padding-left: -20px;
+    height: 90px;
+    width: 280px;
+}
+
+.FooterAllIcons{
+    display: flex;
+    gap: 10px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+
+/* .footerLogo{
+  margin-right: 300px;
+}
+ */
