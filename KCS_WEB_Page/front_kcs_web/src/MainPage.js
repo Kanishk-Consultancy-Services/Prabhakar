@@ -13,6 +13,7 @@ import {
 import LandingImage1 from './images/Let Kaapro find the right fit for your company_-Photoroom.png'
 import LandingImage2 from './images/Permanent Staffing Service Provider.jpg'
 import LandingImage3 from './images/MAINPAFE PIN.jpg'
+import KcsLogo1 from './images/KCS_Official_Logo.PNG'
 
 
 const MainPage = () => {
@@ -21,7 +22,7 @@ const MainPage = () => {
     <div className='TopNavigation'>
           <div className='TopBarLine'>
               <div className='TopBarText'>
-                  <h1>&#128222; New Course Enquiry : +91 91083 18017</h1>
+                  <h1>&#128222; New Course Enquiry : +91 9108318017</h1>
                   <div className='AllIcons'>
                       <p><FontAwesomeIcon icon={faFacebook} /></p>
                       <p><FontAwesomeIcon icon={faGoogle} /></p>
@@ -38,17 +39,21 @@ const MainPage = () => {
       </div>
 
       
-      <div className='TopNavigationFields'>
+      <div className='TopNavigationFieldsContainer'>
         <div className='logo'>
-            <h1>logo</h1>
+          <img className='KcsLogo' src={KcsLogo1} alt='KcsLogo'/>
+            {/* <h1>logo</h1> */}
         </div>
+      <div className='TopNavigationFields'>
       <p>Home</p>
       <p>About Us</p>
       <p>Trainings</p>
       <p>Services</p>
       <p>Others</p>
       <p>Blog</p>
+      <p>Others</p>
       <p>Contact Us</p>
+        </div>
       </div>
       
 

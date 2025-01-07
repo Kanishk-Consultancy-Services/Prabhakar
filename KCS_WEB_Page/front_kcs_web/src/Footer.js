@@ -1,5 +1,16 @@
 import React from 'react'
 import './Footer.css'
+import KcsLogo1 from './images/KCS_Official_Logo.PNG'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import { 
+    faFacebook,
+    faGoogle,
+    faPinterest,
+    faInstagram,
+    faLinkedin,
+    faTwitter,
+    faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -8,12 +19,13 @@ const Footer = () => {
 
       <div className='firstCol'>
         <div className='footerLogo'>
-         <h1>Logo</h1>
-        </div>
+        <img className='FooterKcsLogo' src={KcsLogo1} alt='FooterKcsLogo'/>
+         {/* <h1>Logo</h1> */}
+          </div>
     
         <div className='compInfo'>
         <h1>KANISHK SERVICES</h1>
-        <h2>Recrutment - Placements - Trainings</h2>
+        {/* <h2>Recrutment - Placements - Trainings</h2> */}
         <p>Call Now For enquiry:</p>
         <p>+91 91083 18017</p>
         </div>
@@ -41,6 +53,15 @@ const Footer = () => {
        <p>and get quick response from our team </p>
        <p>we are on the way to build your carrier </p>
        <p>Join with us...</p>
+       <div className='FooterAllIcons'>
+                             <p><FontAwesomeIcon icon={faFacebook} /></p>
+                             <p><FontAwesomeIcon icon={faGoogle} /></p>
+                             <p><FontAwesomeIcon icon={faInstagram} /></p>
+                             <p><FontAwesomeIcon icon={faLinkedin} /></p>
+                             <p><FontAwesomeIcon icon={faPinterest} /></p>
+                             <p><FontAwesomeIcon icon={faTwitter} /></p>
+                             <p><FontAwesomeIcon icon={faYoutube} /></p>
+                         </div>
        </div>
       </div>
     </div>
