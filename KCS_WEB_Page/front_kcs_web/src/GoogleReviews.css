@@ -16,6 +16,8 @@
   
   .container{
     background-color: rgb(234, 236, 238);
+    /* margin-bottom: 60px; */
+    padding-bottom: 10px;
   
   }
   
@@ -53,7 +55,7 @@
     height: 50px;
     width: 150px;
     margin-top: 70px;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     color: white;
     font-size: 18px;
     padding: 15px 10px;

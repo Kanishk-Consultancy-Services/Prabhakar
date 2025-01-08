@@ -27,7 +27,7 @@ const Footer = () => {
         <h1>KANISHK SERVICES</h1>
         {/* <h2>Recrutment - Placements - Trainings</h2> */}
         <p>Call Now For enquiry:</p>
-        <p>+91 91083 18017</p>
+        <p>+91 93468 11821</p>
         </div>
       </div>
 
