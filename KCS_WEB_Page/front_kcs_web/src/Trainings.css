@@ -1,0 +1,79 @@
+/* Trainings.css */
+
+.Trainingcontainer {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center; /* Centers the header text */
+  }
+  
+  .training-card-h2 {
+    text-align: center;
+    color: #bb0909;
+    margin-bottom: 5px;
+  }
+  
+  .training-card-h2 p {
+    margin: 5px 0;
+  }
+  
+  .training-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .training-card {
+    background-color: #ffffff;
+    border: 2px solid #bb0909; /* Border for each card */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center; /* Aligns all text inside the card to center */
+  }
+  
+  .training-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .training-card h3 {
+    color:  #bb0909;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Aligns the tags to the center */
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tag {
+    background-color:  #f9f2f2;
+    color: #c92c5b;
+    border: 1px solid #bb0909;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+  
+  .status {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .training-card {
+      padding: 15px;
+    }
+  
+    .training-card h3 {
+      font-size: 1.3rem;
+    }
+  }
+  

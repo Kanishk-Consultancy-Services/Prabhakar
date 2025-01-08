@@ -6,35 +6,35 @@ const Scrolling = () => {
   <>
   <div className='scrollContainer'>
    <marquee className='scrollingText'>
-    <p>Registration is going to get for 25% OFF on All our services upto XX-Feb CALL NOW +91 91083 18017 Hurry Up! 
+    <p>Registration is going to get for 25% OFF on Training Batches upto 2025 CALL NOW +91 93468 11821 Hurry Up! 
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Registration is going to get for 25% OFF on All our services upto XX-Feb CALL NOW +91 91083 18017 Hurry Up! 
+    Registration is going to get for 25% OFF on Training Batches upto 2025 CALL NOW +91 93468 11821 Hurry Up!
   
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Registration is going to get for 25% OFF on All our services upto XX-Feb CALL NOW +91 91083 18017 Hurry Up!
+    Registration is going to get for 25% OFF on Training Batches upto 2025 CALL NOW +91 93468 11821 Hurry Up!
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Registration is going to get for 25% OFF on All our services upto XX-Feb CALL NOW +91 91083 18017 Hurry Up!  
+    Registration is going to get for 25% OFF on Training Batches upto 2025 CALL NOW +91 93468 11821 Hurry Up! 
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Registration is going to get for 25% OFF on All our services upto XX-Feb CALL NOW +91 91083 18017 Hurry Up!  
+    Registration is going to get for 25% OFF on Training Batches upto 2025 CALL NOW +91 93468 11821 Hurry Up!  
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Registration is going to get for 25% OFF on All our services upto XX-Feb CALL NOW +91 91083 18017 Hurry Up!  
+    Registration is going to get for 25% OFF on Training Batches upto 2025 CALL NOW +91 93468 11821 Hurry Up! 
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Registration is going to get for 25% OFF on All our services upto XX-Feb CALL NOW +91 91083 18017 Hurry Up!  
+    Registration is going to get for 25% OFF on Training Batches upto 2025 CALL NOW +91 93468 11821 Hurry Up!
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Registration is going to get for 25% OFF on All our services upto XX-Feb CALL NOW +91 91083 18017 Hurry Up!  
+    Registration is going to get for 25% OFF on Training Batches upto 2025 CALL NOW +91 93468 11821 Hurry Up! 
     </p>
     </marquee>
   </div>

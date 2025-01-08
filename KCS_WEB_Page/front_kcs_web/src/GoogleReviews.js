@@ -10,9 +10,9 @@ const GoogleReviews = () => {
         <div className="googleReviews">
           <h1>Google Reviews</h1>
         </div>
-        <button className="sideBtn">
+        {/* <button className="sideBtn">
                  &lt;
-              </button>
+              </button> */}
         <div className="reviewBoxes">
          <div className="revBox">
           <h2>Overall, online courses are a fantastic way to upgrade skills,
@@ -28,16 +28,10 @@ const GoogleReviews = () => {
          </div>
          <div className="revBox">
           <h2>
-    Taking an online course is an empowering way to expand your knowledge 
-    and gain new skills. The ability to learn at your own pace makes it 
-    suitable for busy schedules, and the diverse range of topics ensures 
-    there’s something for everyone. Courses are thoughtfully designed, often
-     including videos, interactive quizzes, and assignments that enhance the 
-     learning experience.The access to industry experts and global communities of 
-     learners adds another layer of value, making learning collaborative and insightful. 
-    Whether you’re aiming to advance your career, explore a hobby, or stay 
-    updated in your field, online courses are a fantastic choice for 
-    accessible and impactful education.</h2>
+          Kanishk Consultancy Services provided exceptional support in my job search. 
+          Their guidance in resume building, interview preparation, and market insights
+           was invaluable. With their help, I secured a job that perfectly matches my 
+           skills and goals. I highly recommend their services to any one looking to advance their career.</h2>
     <br/>
     <h3>Rating: 4.8/5
       <br/>

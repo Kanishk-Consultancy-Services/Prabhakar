@@ -1,6 +1,8 @@
 import React from 'react'
 import './Footer.css'
 import KcsLogo1 from './images/KCS_Official_Logo.PNG'
+// import whatsapp from './images/icons8-whatsapp-48.png'
+// import whatsappbusiness from './images/whatsapp-business.webp'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { 
     faFacebook,
@@ -25,10 +27,21 @@ const Footer = () => {
     
         <div className='compInfo'>
         <h1>KANISHK SERVICES</h1>
-        {/* <h2>Recrutment - Placements - Trainings</h2> */}
-        <p>Call Now For enquiry:</p>
-        <p>+91 93468 11821</p>
+    
+       <p>Call Now For enquiry:</p>
+       <h3>+91 93468 11821</h3> 
+        
+        
+        <p>Call Now For Business:</p>
+        <h3>+91 95332 55508</h3> 
+
+
+        <p>© Registered as KANISHK SERVICES LLP |</p>
+        <p>Conditions | Cancellation & Refund Policy | Privacy & Policy </p>
+       
+       
         </div>
+
       </div>
 
       {/* second column */}
