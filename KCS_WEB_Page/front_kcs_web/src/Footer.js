@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
     
         <div className='compInfo'>
-        <h1>KANISHK SERVICES</h1>
+        {/* <h1>KANISHK SERVICES</h1> */}
     
        <p>Call Now For enquiry:</p>
        <h3>+91 93468 11821</h3> 

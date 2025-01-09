@@ -13,37 +13,37 @@
     padding-left: 170px;
 }
 
-.compInfo h1{
+/* .compInfo h1{
      font-size: 25px;
      font-weight: normal;
+} */
+
+.compInfo > :nth-child(1) {
+
+    font-size: 20px;
+    font-weight: normal;
+
 }
+
 
 .compInfo > :nth-child(2) {
-
-    font-size: 18px;
-    font-weight: bold;
-
-}
-
-
-.compInfo > :nth-child(3) {
     padding-top: -5px;
     font-size: 18px;
     font-weight: bold;
 }
 
-.compInfo > :nth-child(4) {
+.compInfo > :nth-child(3) {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.compInfo > :nth-child(5) {
+    padding-top: -5px;
     font-size: 18px;
     font-weight: bold;
 }
 
 .compInfo > :nth-child(6) {
-    font-size: 18px;
-    font-weight: lighter;
-    margin-top: 100px;
-}
-
-.compInfo > :nth-child(7) {
     font-size: 14px;
     font-weight: lighter;
     margin-top: -10px;
@@ -75,7 +75,7 @@
 
 .endText >:nth-child(1){
     font-size: 45px;
-    color: rgb(231, 117, 4);
+    color:  #27316c;
     font-weight: bolder;
 }
 

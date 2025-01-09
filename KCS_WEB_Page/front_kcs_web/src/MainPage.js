@@ -22,7 +22,7 @@ const MainPage = () => {
     <div className='TopNavigation'>
           <div className='TopBarLine'>
               <div className='TopBarText'>
-                  <h1>&#128222; New Course Enquiry : +91 9346811821</h1>
+                  {/* <h1>&#128222; New Course Enquiry : +91 9346811821</h1> */}
                   <div className='AllIcons'>
                       <p><FontAwesomeIcon icon={faFacebook} /></p>
                       <p><FontAwesomeIcon icon={faGoogle} /></p>

@@ -53,17 +53,17 @@ const AboutUs = () => {
           <br></br><br></br>
           <h1>Our Values</h1>
          Integrity: Upholding the highest standards of honesty and transparency.
-         <br></br><br></br>
+         <br></br>
           Excellence: Delivering superior quality and striving for continuous improvement. 
-          <br></br><br></br>
+          <br></br>
           Customer-Centricity: Focusing on understanding and exceeding client needs. 
-          <br></br><br></br>
+          <br></br>
           Innovation: Embracing creativity and forward-thinking solutions. 
-          <br></br><br></br>
+          <br></br>
           Collaboration: Working together to achieve shared goals and drive success. 
-          <br></br><br></br>
+          <br></br>
           Respect: Valuing diverse perspectives and fostering an inclusive environment.
-          <br></br><br></br>
+          <br></br>
          Accountability: Taking responsibility for our actions and maintaining professionalism.
         </div>
     </div>

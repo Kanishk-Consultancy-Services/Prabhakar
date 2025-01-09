@@ -37,8 +37,8 @@ function Trainings() {
         <div className="Trainingcontainer">
         <h2 className='Trainings'>Upcoming Training Batches</h2><p>(For Fresher's and Working Professionals)</p><div className="training-grid">
             {trainings.map((training, index) => (
-                <div key={index} className="training-card">
-                    <h3>{training.title}</h3>
+                <div key={index} className="training-card">  
+                    <h3 style={ {color: "#27316c" }}>{training.title}</h3>
                     <div className="tags">
                         <p>
                             <span className="tag">{training.mode}</span> </p>
