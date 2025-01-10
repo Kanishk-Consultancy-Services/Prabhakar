@@ -3,7 +3,7 @@
 .Trainingcontainer {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: white;
   text-align: center; /* Centers the header text */
 }
 
@@ -11,16 +11,16 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Dynamically adjust number of columns */
   justify-content: center; /* Centers the grid in the container */
-  gap: 50px; /* Customize the gap between cards */
+  gap: 5px; /* Customize the gap between cards */
   margin-top: 20px;
-  margin-left: 80px;
-  margin-right: 120px;
+  margin-left: 170px;
+  margin-right: 140px;
   /* margin-left: 195px;
   margin-right: 220px;  */
 }
 
 .training-card {
-  background-color: #ffffff;
+  background-color: white;
   border: 2px solid #27316c; /* Border for each card */
   border-radius: 8px;
   padding: 20px;
@@ -28,7 +28,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
 
-  width: 400px; /* Set the custom width of each card */
+  width: 390px; /* Set the custom width of each card */
   height: 320px; /* Set the custom height of each card */
   text-align: center; /* Aligns all text inside the card to center */
 }
