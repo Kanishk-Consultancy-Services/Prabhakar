@@ -103,6 +103,10 @@
     font-size: 20px;
 }
 
+.FooterAllIcons p{
+    color: black;
+}
+
 /* .footerLogo{
   margin-right: 300px;
 }

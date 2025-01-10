@@ -67,13 +67,20 @@ const Footer = () => {
        <p>we are on the way to build your carrier </p>
        <p>Join with us...</p>
        <div className='FooterAllIcons'>
-                             <p><FontAwesomeIcon icon={faFacebook} /></p>
-                             <p><FontAwesomeIcon icon={faGoogle} /></p>
-                             <p><FontAwesomeIcon icon={faInstagram} /></p>
-                             <p><FontAwesomeIcon icon={faLinkedin} /></p>
-                             <p><FontAwesomeIcon icon={faPinterest} /></p>
-                             <p><FontAwesomeIcon icon={faTwitter} /></p>
-                             <p><FontAwesomeIcon icon={faYoutube} /></p>
+                             <a href='https://www.facebook.com/kanishk.reddy.902'>
+                             <p><FontAwesomeIcon icon={faFacebook} /></p></a>
+                             <a href='https://kanishkservices.com/'>
+                             <p><FontAwesomeIcon icon={faGoogle} /></p></a>
+                             <a href='https://www.instagram.com/kcs_consultancy_services/'>
+                             <p><FontAwesomeIcon icon={faInstagram} /></p></a>
+                             <a href='https://www.linkedin.com/in/kanishk-services-6b3380202/'>
+                             <p><FontAwesomeIcon icon={faLinkedin} /></p></a>
+                             <a href='https://www.facebook.com/kanishk.reddy.902'>
+                             <p><FontAwesomeIcon icon={faPinterest} /></p></a>
+                             <a href='https://x.com/KCS12275758'>
+                             <p><FontAwesomeIcon icon={faTwitter} /></p></a>
+                             <a href='https://www.youtube.com/@kanishkservices9490'>
+                             <p><FontAwesomeIcon icon={faYoutube} /></p></a>
                          </div>
        </div>
       </div>
