@@ -19,11 +19,11 @@ import KcsLogo1 from './images/KCS_Official_Logo.PNG'
 const MainPage = () => {
   return (
     <>
-    <div className='TopNavigation'>
+    {/* <div className='TopNavigation'>
           <div className='TopBarLine'>
-              <div className='TopBarText'>
+              <div className='TopBarText'> */}
                   {/* <h1>&#128222; New Course Enquiry : +91 9346811821</h1> */}
-                  <div className='AllIcons'>
+                  {/* <div className='AllIcons'>
                       <p><FontAwesomeIcon icon={faFacebook} /></p>
                       <p><FontAwesomeIcon icon={faGoogle} /></p>
                       <p><FontAwesomeIcon icon={faInstagram} /></p>
@@ -36,7 +36,7 @@ const MainPage = () => {
 
               </div>
           </div>
-      </div>
+      </div> */}
 
       
       <div className='TopNavigationFieldsContainer'>
