@@ -36,7 +36,7 @@ const Footer = () => {
         <h3>+91 95332 55508</h3> 
 
 
-        <p>© Registered as KANISHK SERVICES LLP |</p>
+        <p>© Registered as KANISHK SERVICES |</p>
         <p>Conditions | Cancellation & Refund Policy | Privacy & Policy </p>
        
        
