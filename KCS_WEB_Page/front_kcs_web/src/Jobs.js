@@ -37,7 +37,7 @@ const jobs = [
       Location: "Blr/WFO",
     },
     {
-      Role: "Java full stack Developer Intern",
+      Role: "Java full stack Intern",
       Company: "kanishik services",
       Experience: "0-3 years",
       Skills: "Html,Css,java script,react.js,springboot,Mysql",
