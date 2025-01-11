@@ -18,8 +18,37 @@ import KcsLogo1 from './images/KCS_Official_Logo.PNG'
 
 const MainPage = () => {
   return (
-    <>
-    {/* <div className='TopNavigation'>
+
+      <div className='TopNavContainer'>
+      <div className='TopNavigationFieldsContainer'>
+        <div className='logo'>
+          <img className='KcsLogo' src={KcsLogo1} alt='KcsLogo'/>
+            {/* <h1>logo</h1> */}
+        </div>
+      <div className='TopNavigationFields'>
+      <p>Home</p>
+      <p>About Us</p>
+      <p>Trainings</p>
+      <p>Services</p>
+      <p>Others</p>
+      <p>Blog</p>
+      <p>Others</p>
+      <p>Contact Us</p>
+      </div>
+      </div>
+
+      <div className='imageContainer'>
+      <center><img className='LandingImage3'  src={LandingImage3} alt='LandingImage'/></center>
+      </div>
+      </div>
+  )
+}
+
+export default MainPage
+
+
+
+{/* <div className='TopNavigation'>
           <div className='TopBarLine'>
               <div className='TopBarText'> */}
                   {/* <h1>&#128222; New Course Enquiry : +91 9346811821</h1> */}
@@ -37,32 +66,3 @@ const MainPage = () => {
               </div>
           </div>
       </div> */}
-
-      
-      <div className='TopNavigationFieldsContainer'>
-        <div className='logo'>
-          <img className='KcsLogo' src={KcsLogo1} alt='KcsLogo'/>
-            {/* <h1>logo</h1> */}
-        </div>
-      <div className='TopNavigationFields'>
-      <p>Home</p>
-      <p>About Us</p>
-      <p>Trainings</p>
-      <p>Services</p>
-      <p>Others</p>
-      <p>Blog</p>
-      <p>Others</p>
-      <p>Contact Us</p>
-        </div>
-      </div>
-      
-
-      <div className='imageContainer'>
-      <center><img className='LandingImage3'  src={LandingImage3} alt='LandingImage'/></center>
-      </div>
-
-    </>
-  )
-}
-
-export default MainPage

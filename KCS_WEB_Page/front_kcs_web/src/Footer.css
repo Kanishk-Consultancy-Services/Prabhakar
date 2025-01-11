@@ -10,7 +10,8 @@
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 80px;
-    padding-left: 140px;
+    padding-left: 120px;
+    width: 600px;
 }
 
 /* .compInfo h1{
@@ -54,7 +55,7 @@
 
 .secondCol{
     margin-top: 80px;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 .secondCol p{
@@ -69,7 +70,8 @@
 
 .footerText{
     margin-top: 40px;
-    margin-left: 300px;
+    margin-left: 220px;
+    width: 700px;
 
 }
 

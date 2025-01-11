@@ -67,19 +67,19 @@ const Footer = () => {
        <p>we are on the way to build your carrier </p>
        <p>Join with us...</p>
        <div className='FooterAllIcons'>
-                             <a href='https://www.facebook.com/kanishk.reddy.902'>
+                             <a href='https://www.facebook.com/kanishk.reddy.902' target="_blank" rel="noopener noreferrer">
                              <p><FontAwesomeIcon icon={faFacebook} /></p></a>
-                             <a href='https://kanishkservices.com/'>
+                             <a href='https://kanishkservices.com/' target="_blank" rel="noopener noreferrer">
                              <p><FontAwesomeIcon icon={faGoogle} /></p></a>
-                             <a href='https://www.instagram.com/kcs_consultancy_services/'>
+                             <a href='https://www.instagram.com/kcs_consultancy_services/' target="_blank" rel="noopener noreferrer">
                              <p><FontAwesomeIcon icon={faInstagram} /></p></a>
-                             <a href='https://www.linkedin.com/in/kanishk-services-6b3380202/'>
+                             <a href='https://www.linkedin.com/in/kanishk-services-6b3380202/' target="_blank" rel="noopener noreferrer">
                              <p><FontAwesomeIcon icon={faLinkedin} /></p></a>
-                             <a href='https://www.facebook.com/kanishk.reddy.902'>
+                             <a href='https://www.facebook.com/kanishk.reddy.902' target="_blank" rel="noopener noreferrer">
                              <p><FontAwesomeIcon icon={faPinterest} /></p></a>
-                             <a href='https://x.com/KCS12275758'>
+                             <a href='https://x.com/KCS12275758' target="_blank" rel="noopener noreferrer">
                              <p><FontAwesomeIcon icon={faTwitter} /></p></a>
-                             <a href='https://www.youtube.com/@kanishkservices9490'>
+                             <a href='https://www.youtube.com/@kanishkservices9490' target="_blank" rel="noopener noreferrer">
                              <p><FontAwesomeIcon icon={faYoutube} /></p></a>
                          </div>
        </div>
