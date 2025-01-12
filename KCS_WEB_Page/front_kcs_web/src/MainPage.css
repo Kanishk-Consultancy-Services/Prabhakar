@@ -1,9 +1,9 @@
- /* .TopBarLine{
+/* .TopBarLine{
     height: 55px;
     width: 100%;
     background-color: #0C1232;
 } */
- 
+
 /* .TopBarText h1{
    color: white;
    font-size: 17px;
@@ -21,7 +21,7 @@
     gap:10px;
     padding-top: 10px;
 } */
- 
+
 /* .AllIcons{
     color: white;
     display: flex;
@@ -30,7 +30,7 @@
     margin-bottom: 20px;
  
 } */
- 
+
 /* .TopBarText button{
     height: 45px;
     width:170px;
@@ -42,53 +42,49 @@
     color: white;
 }
   */
- 
+
 /* .socialMediaIcons{
     font-size: 10px;
 } */
- 
+
 /* .LandingImage1{
     height: 200px;
     width: 600px;
 } */
-.LandingImage3{
-    height: 900px;
-    width: 100%;
+.LandingImage3 {
+  height: 900px;
+  width: 100%;
 }
- 
-.imageContainer{
-   
-    margin-top: 30px;
-}
- 
-.TopNavigationFieldsContainer{
-    display :flex;
-    /* font-size: 20px; */
-    font-weight: normal;
-    gap:10px;
-    margin-bottom: -50px;
-    padding-right: 30px;
-    background-color:  #0C1232;
-    /* background-color: aqua; */
 
- 
+.imageContainer {
+  margin-top: 30px;
+  margin-right: auto;
 }
- 
-.TopNavigationFields{
-    display: flex;
-     padding-left: 300px;
-    /* padding-left: 50px; */
-    margin-top: 20px; 
-    font-size: 18px;
-    gap: 32px;
-    color: white;
-    width: 900px;
- 
+
+.TopNavigationFieldsContainer {
+  display: flex;
+  /* font-size: 20px; */
+  font-weight: normal;
+  gap: 10px;
+  margin-bottom: -50px;
+  padding-right: 30px;
+  background-color: #0c1232;
+  /* background-color: aqua; */
 }
- 
-.KcsLogo{
-    height: 90px;
-    width: 280px;
-    margin: 10px 10px 10px 20px;
+
+.TopNavigationFields {
+  display: flex;
+  padding-left: 300px;
+  /* padding-left: 50px; */
+  margin-top: 20px;
+  font-size: 18px;
+  gap: 32px;
+  color: white;
+  width: 900px;
 }
- 
+
+.KcsLogo {
+  height: 90px;
+  width: 280px;
+  margin: 10px 10px 10px 20px;
+}
