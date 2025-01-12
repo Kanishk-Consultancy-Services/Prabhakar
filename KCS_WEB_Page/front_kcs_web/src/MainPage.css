@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden; /* This will disable horizontal scroll */
+  margin-left: 30px; /* Remove default body margin */
+}
+
 /* .TopBarLine{
     height: 55px;
     width: 100%;
@@ -54,12 +59,23 @@
 .LandingImage3 {
   height: 900px;
   width: 100%;
+  object-fit: cover;
+  transition: transform 1s ease-out, opacity 1s ease-out;
 }
 
 .imageContainer {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-right: auto;
+  /* display: flex; */
 }
+
+/* .LandingImage3.loaded {
+  opacity: 1; /* Fade in the image } 
+*/
+
+/* .LandingImage3:hover {
+  transform: scale(1.05); // Slight zoom-in effect on hover 
+} */
 
 .TopNavigationFieldsContainer {
   display: flex;

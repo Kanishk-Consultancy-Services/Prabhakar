@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./MainPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -16,6 +16,19 @@ import LandingImage3 from "./images/MAINPAFE PIN.jpg";
 import KcsLogo1 from "./images/KCS_Official_Logo.PNG";
 
 const MainPage = () => {
+  // const [imageLoaded, setImageLoaded] = useState(false);
+
+  // useEffect(() => {
+  //   if (imageLoaded) {
+  //     const image = document.querySelector(".LandingImage3");
+  //     image.classList.add("loaded");
+  //   }
+  // }, [imageLoaded]);
+
+  // const handleImageLoad = () => {
+  //   setImageLoaded(true); // Set image as loaded when onLoad event is triggered
+  // };
+
   return (
     <div className="TopNavContainer">
       <div className="TopNavigationFieldsContainer">
@@ -36,13 +49,14 @@ const MainPage = () => {
       </div>
 
       <div className="imageContainer">
-        <center>
+        <div className="imageWrapper">
           <img
             className="LandingImage3"
             src={LandingImage3}
             alt="LandingImage"
+            // onLoad={handleImageLoad}
           />
-        </center>
+        </div>
       </div>
     </div>
   );

@@ -1,55 +1,54 @@
-.aboutUsContainer{
-    display: flex;
+.aboutUsContainer {
+  display: flex;
 }
 
-.aboutUsText{
-    display: flex;
-    width: 50%;
-    font-size: 18px;
-    color: white;
-    margin-left: 60px;
-    margin-bottom: 60px;
+.aboutUsText {
+  display: flex;
+  width: 50%;
+  font-size: 18px;
+  color: white;
+  margin-left: 60px;
+  margin-bottom: 60px;
 }
 
-.aboutCompContainer{
-    background-color:rgb(20,44,68);
+.aboutCompContainer {
+  background-color: rgb(20, 44, 68);
 }
 
 /* .aboutTilte p{
   font-size: 20px;
 } */
 
-.aboutTilte{
-    font-size: 47px;
-    font-weight: 620;
-   display: flex;
-   justify-content: center;
-   color: white;
-  }
+.aboutTilte {
+  font-size: 47px;
+  font-weight: 620;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
 
-  .boldText{
-    font-size: 20px;
-  }
+.boldText {
+  font-size: 20px;
+}
 
+.missionAndVision {
+  width: 50%;
+  font-size: 18px;
+  color: white;
+  margin-left: 25px;
+  margin-right: 10px;
+}
 
-  .missionAndVision{
-     width: 50%;
-     font-size: 18px;
-     color: white;
-     margin-left: 25px;
-     margin-right: 10px;
-  }
+.aboutUsText h1 {
+  font-size: 18px;
+  display: flex;
+  font-weight: 700;
+}
 
-  .aboutUsText h1{
-    font-size: 18px;
-    display: flex;
-    font-weight:700;
-  }
+.missionAndVision h1 {
+  font-size: 28px;
+}
 
-  .missionAndVision h1{
-     font-size: 28px;
-  }
-
-  /* aboutCompContainer{
+/* aboutCompContainer{
     background-color: rgb(20,44,68);
 } */
