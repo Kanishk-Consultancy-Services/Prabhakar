@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden; /* This will disable horizontal scroll */
-  margin-left: 30px; /* Remove default body margin */
+  margin-left: 0px; /* Remove default body margin */
 }
 
 /* .TopBarLine{
