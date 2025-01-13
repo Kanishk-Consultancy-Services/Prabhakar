@@ -1,9 +1,14 @@
- /* .TopBarLine{
+body {
+  overflow-x: hidden; /* This will disable horizontal scroll */
+  margin-left: 30px; /* Remove default body margin */
+}
+
+/* .TopBarLine{
     height: 55px;
     width: 100%;
     background-color: #0C1232;
 } */
- 
+
 /* .TopBarText h1{
    color: white;
    font-size: 17px;
@@ -21,7 +26,7 @@
     gap:10px;
     padding-top: 10px;
 } */
- 
+
 /* .AllIcons{
     color: white;
     display: flex;
@@ -30,7 +35,7 @@
     margin-bottom: 20px;
  
 } */
- 
+
 /* .TopBarText button{
     height: 45px;
     width:170px;
@@ -42,53 +47,60 @@
     color: white;
 }
   */
- 
+
 /* .socialMediaIcons{
     font-size: 10px;
 } */
- 
+
 /* .LandingImage1{
     height: 200px;
     width: 600px;
 } */
-.LandingImage3{
-    height: 900px;
-    width: 100%;
+.LandingImage3 {
+  height: 900px;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 1s ease-out, opacity 1s ease-out;
 }
- 
-.imageContainer{
-   
-    margin-top: 30px;
-}
- 
-.TopNavigationFieldsContainer{
-    display :flex;
-    /* font-size: 20px; */
-    font-weight: normal;
-    gap:10px;
-    margin-bottom: -50px;
-    padding-right: 30px;
-    background-color:  #0C1232;
-    /* background-color: aqua; */
 
- 
+.imageContainer {
+  margin-top: 50px;
+  margin-right: auto;
+  /* display: flex; */
 }
- 
-.TopNavigationFields{
-    display: flex;
-     padding-left: 300px;
-    /* padding-left: 50px; */
-    margin-top: 20px; 
-    font-size: 18px;
-    gap: 32px;
-    color: white;
-    width: 900px;
- 
+
+/* .LandingImage3.loaded {
+  opacity: 1; /* Fade in the image } 
+*/
+
+/* .LandingImage3:hover {
+  transform: scale(1.05); // Slight zoom-in effect on hover 
+} */
+
+.TopNavigationFieldsContainer {
+  display: flex;
+  /* font-size: 20px; */
+  font-weight: normal;
+  gap: 10px;
+  margin-bottom: -50px;
+  padding-right: 30px;
+  background-color: #0c1232;
+  /* background-color: aqua; */
 }
- 
-.KcsLogo{
-    height: 90px;
-    width: 280px;
-    margin: 10px 10px 10px 20px;
+
+.TopNavigationFields {
+  display: flex;
+  padding-left: 300px;
+  /* padding-left: 50px; */
+  margin-top: 20px;
+  font-size: 18px;
+  gap: 32px;
+  color: white;
+  width: 900px;
 }
- 
+
+.KcsLogo {
+  height: 90px;
+  width: 280px;
+  margin: 10px 10px 10px 20px;
+}
