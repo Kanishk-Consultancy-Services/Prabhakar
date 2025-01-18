@@ -1,6 +1,8 @@
 body {
-  overflow-x: hidden; /* This will disable horizontal scroll */
+  overflow-x: auto; /* This will disable horizontal scroll */
   margin-left: 0px; /* Remove default body margin */
+  max-width: 2000px;
+  align-content: center;
 }
 
 /* .TopBarLine{
@@ -64,7 +66,7 @@ body {
 }
 
 .imageContainer {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-right: auto;
   /* display: flex; */
 }
@@ -81,26 +83,27 @@ body {
   display: flex;
   /* font-size: 20px; */
   font-weight: normal;
-  gap: 10px;
-  margin-bottom: -50px;
-  padding-right: 30px;
+  grid-gap: 550px;
+  /* margin-bottom: -50px; */
+  /* padding-right: 30px; */
   background-color: #0c1232;
   /* background-color: aqua; */
+  /* margin: auto; */
 }
 
 .TopNavigationFields {
   display: flex;
-  padding-left: 300px;
+  /* padding-left: 400px; */
   /* padding-left: 50px; */
   margin-top: 20px;
   font-size: 18px;
   gap: 32px;
   color: white;
-  width: 900px;
+  /* width: 600px; */
 }
 
 .KcsLogo {
   height: 90px;
-  width: 280px;
+  width: auto;
   margin: 10px 10px 10px 20px;
 }
