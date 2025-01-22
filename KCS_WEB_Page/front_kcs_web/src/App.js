@@ -1,6 +1,7 @@
 import React from "react";
-import './App.css'
+import "./App.css";
 import MainPage from "./MainPage";
+import Header from "./Header";
 import GoogleReviews from "./GoogleReviews";
 import Footer from "./Footer";
 import Scrolling from "./Scrolling";
@@ -13,15 +14,16 @@ import Services from "./Services";
 function App() {
   return (
     <>
-    <MainPage></MainPage>
-    <Jobs></Jobs>
-    <Trainings></Trainings>
-    <Services></Services>
-    <AboutUs></AboutUs>
-    <GoogleReviews></GoogleReviews>
-    <OurPartners></OurPartners>
-    <Scrolling></Scrolling>
-    <Footer></Footer>
+      <Header></Header>
+      <MainPage></MainPage>
+      <Jobs></Jobs>
+      <Trainings></Trainings>
+      <Services></Services>
+      <AboutUs></AboutUs>
+      <GoogleReviews></GoogleReviews>
+      <OurPartners></OurPartners>
+      <Scrolling></Scrolling>
+      <Footer></Footer>
     </>
   );
 }

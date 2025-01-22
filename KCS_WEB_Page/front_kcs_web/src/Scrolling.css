@@ -1,13 +1,20 @@
-.scrollingText{
-    height: 70px;
-    width: 100%;
-    background-color:   #1d2760;
-    color: white;
-    font-size: 20px;
-   
+.scrolling-text {
+  height: 60px;
+  background-color: #1d2760;
+  color: white;
+  font-size: 20px;
+  align-content: center;
 }
 
-scrollingText p{
-    margin-top: 20px;
-    margin-bottom:20px;
+scrolling-text p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.scrolling-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
