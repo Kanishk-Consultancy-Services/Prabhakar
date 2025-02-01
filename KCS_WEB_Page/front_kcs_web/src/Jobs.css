@@ -1,8 +1,10 @@
-.jobscontainer {
-  max-width: 1200px;
+/* Job Section */
+
+.job-container {
+  width: 75vw;
+  background-color: rgb(234, 236, 238);
   margin: 0 auto;
   padding: 20px;
-  text-align: center;
 }
 
 .jobs h1,
@@ -10,21 +12,19 @@ h2 {
   text-align: center;
   color: #27316c;
   font-size: 40px;
-  padding: 5px, 5px, 5px, 5px;
+  padding: 5px;
 }
 
-.jobscontainer p {
+.job-container p {
+  margin: 5px 0;
   text-align: center;
-  font-size: 1.1rem;
-  color: #555;
 }
 
-/* Job Section */
 .job-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin: 20px 0;
+  grid-gap: 20px;
+  margin: 20px;
   text-align: left;
 }
 
@@ -32,10 +32,10 @@ h2 {
   background: #f6f4f4;
   border: 1px solid #27316c;
   border-radius: 8px;
-  padding: 20px;
+  padding: 10px;
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   transition: transform 0.3s ease;
-  text-align: left;
+  /* text-align: left; */
 }
 
 .job-card:hover {
@@ -45,7 +45,7 @@ h2 {
 .job-card h3 {
   color: #27316c;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
   font-size: 25px;
 }
 

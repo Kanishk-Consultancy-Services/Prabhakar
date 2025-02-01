@@ -1,109 +1,81 @@
-body {
-  overflow-x: auto; /* This will disable horizontal scroll */
-  margin-left: 0px; /* Remove default body margin */
-  max-width: 2000px;
-  align-content: center;
-}
+/* MainPage.css */
 
-/* .TopBarLine{
-    height: 55px;
-    width: 100%;
-    background-color: #0C1232;
-} */
-
-/* .TopBarText h1{
-   color: white;
-   font-size: 17px;
-   font-family: Helvetica;
-   font-weight: normal;
-   padding: 3px 10px 10px 130px;
- 
-}
-  */
-/* .TopBarText{
-    display: flex;
-} */
-/*  
-.TopBarText {
-    gap:10px;
-    padding-top: 10px;
-} */
-
-/* .AllIcons{
-    color: white;
-    display: flex;
-    padding: 2px 10px 10px 1150px;
-    gap: 10px;
-    margin-bottom: 20px;
- 
-} */
-
-/* .TopBarText button{
-    height: 45px;
-    width:170px;
-    padding:10px 10px 10px 10px;
-    margin: 5px 2px 2px 2px;
-    border-radius: 8px;
-    font-size: 15px;
-    background-color: rgb(226, 47, 47);
-    color: white;
-}
-  */
-
-/* .socialMediaIcons{
-    font-size: 10px;
-} */
-
-/* .LandingImage1{
-    height: 200px;
-    width: 600px;
-} */
-.LandingImage3 {
-  height: 900px;
+.image-container {
+  display: flex;
+  position: relative;
+  /* top: 70px; */
   width: 100%;
-  object-fit: cover;
-  transition: transform 1s ease-out, opacity 1s ease-out;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  /* padding: 0 10px; */
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.imageContainer {
-  /* margin-top: 50px; */
-  margin-right: auto;
-  /* display: flex; */
-}
-
-/* .LandingImage3.loaded {
-  opacity: 1; /* Fade in the image } 
-*/
-
-/* .LandingImage3:hover {
-  transform: scale(1.05); // Slight zoom-in effect on hover 
+/* .enquiryForm {
+  flex: 1 2;
+  height: 100%;
+  background-color: #131325;
+  padding-left: 30px;
+  padding-right: 50px;
 } */
 
-.TopNavigationFieldsContainer {
+/* .image-wrapper {
+  flex: 2 2;
+  height: 100%;
+  position: relative;
+} */
+
+.image-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
-  /* font-size: 20px; */
-  font-weight: normal;
-  grid-gap: 550px;
-  /* margin-bottom: -50px; */
-  /* padding-right: 30px; */
-  background-color: #0c1232;
-  /* background-color: aqua; */
-  /* margin: auto; */
+  justify-content: center;
+  align-items: center;
 }
 
-.TopNavigationFields {
-  display: flex;
-  /* padding-left: 400px; */
-  /* padding-left: 50px; */
-  margin-top: 20px;
-  font-size: 18px;
-  gap: 32px;
-  color: white;
-  /* width: 600px; */
+.image {
+  width: 100%;
+  height: 100%; /* Ensure images fill the container */
+  object-fit: cover; /* Avoid image stretching/distortion */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  /* opacity: 0; */
+  transition: opacity 0.8s ease, transform 1s ease-in-out;
+}
+.image.active {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.KcsLogo {
-  height: 90px;
-  width: auto;
-  margin: 10px 10px 10px 20px;
+@keyframes image {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Hover Effects */
+.image:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
 }

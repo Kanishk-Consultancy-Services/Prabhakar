@@ -1,37 +1,109 @@
-.reqForm {
-    margin: 10px;
+/* Styling for the container of the form */
+
+.enquiryForm {
+  position: absolute;
+  top: 55%; /* Position the form vertically centered */
+  left: 80%;
+  transform: translate(-50%, -50%); /* Center the form */
+  width: 100%;
+  max-width: 500px; /* Optional: Limit the form's width */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-right: 5px;
+}
+
+/* Styling for the form box */
+.reqFormBox {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  padding: 30px;
+  align-content: flex-start;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in, box-shadow 0.3s ease;
+}
+
+/* Hover effect for form box */
+.reqFormBox:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.reqFormTitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Input and textarea styling */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+.form-input:focus {
+  outline: none;
+  border-color: #0066cc;
+  background-color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #005bb5;
+}
+
+.reqFormBox:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive design: Ensure form is well structured on mobile */
+@media (max-width: 768px) {
+  .image-container {
+    flex-direction: column; /* Stack image and form vertically on mobile */
+    padding: 20px;
   }
-  
-  .reqFormTilte{
-  font-size:  25px;
-  font-weight: normal;
-  padding-top: 18px;
-  /* padding: 60px 10px 10px 23px; */
-  
-  
-  
+
+  .image-wrapper {
+    width: 100%;
+    height: 50vh; /* Adjust height on smaller screens */
   }
-  
-  .reqFormBox{
-    margin-left: 160px;
-    justify-content: space-between;
-    background-color: rgb(250, 250, 250);
-    height: 580px;
-    width: 650px;
-    padding: 0px 10px 10px 0px;
-  
+
+  .enquiryForm {
+    width: 100%;
+    position: absolute;
+    left: 55%;
+    padding: 20px;
   }
-  
-  .reqFormContainer{
-    padding-top: 40px;
-    background-color: rgb(255, 255, 255);
+  .reqFormBox {
+    padding: 20px;
+    width: 100%;
   }
-  
-  input{
-    height: 30px;
-    width: 250px;
-    
+
+  .reqFormTitle {
+    font-size: 20px;
   }
-  
-  
-  
+}

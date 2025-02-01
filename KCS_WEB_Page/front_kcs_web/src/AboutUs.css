@@ -1,18 +1,27 @@
 .aboutUsContainer {
   display: flex;
+  position: relative;
+  justify-content: center;
+  /* margin: 0px 15px; */
 }
 
 .aboutUsText {
-  display: flex;
-  width: 50%;
-  font-size: 18px;
+  width: 50vw;
+  font-size: 1.2em;
   color: white;
-  margin-left: 60px;
-  margin-bottom: 60px;
+  margin: 10px;
 }
 
 .aboutCompContainer {
+  display: flex;
+  position: relative;
   background-color: rgb(20, 44, 68);
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  border: 3px solid;
+  border-radius: 10px;
 }
 
 /* .aboutTilte p{
@@ -20,8 +29,7 @@
 } */
 
 .aboutTilte {
-  font-size: 47px;
-  font-weight: 620;
+  font-size: 3em;
   display: flex;
   justify-content: center;
   color: white;
@@ -33,10 +41,16 @@
 
 .missionAndVision {
   width: 50%;
-  font-size: 18px;
+  font-size: 1.2em;
   color: white;
   margin-left: 25px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
+
+  /* display: flex;
+  width: 50vw;
+  font-size: 1.2em;
+  color: white;
+  margin: 20px; */
 }
 
 .aboutUsText h1 {
