@@ -22,22 +22,26 @@
 .compInfo > :nth-child(1) {
   font-size: 20px;
   font-weight: normal;
+  margin-right: 80px;
 }
 
 .compInfo > :nth-child(2) {
   font-size: 18px;
   font-weight: bold;
+  margin-right: 100px;
 }
 
 .compInfo > :nth-child(3) {
   font-size: 20px;
   font-weight: normal;
+  margin-right: 70px;
 }
 
 .compInfo > :nth-child(5) {
   padding-top: -5px;
   font-size: 18px;
   font-weight: bold;
+  margin-right: 80px;
 }
 
 .compInfo > :nth-child(6) {
@@ -46,6 +50,7 @@
   margin-top: -10px;
   display: flex;
   justify-content: center;
+  margin-right: 120;
 }
 
 .secondCol {

@@ -30,7 +30,8 @@ const trainings = [
 
 function Trainings() {
   return (
-    <div id="trainings" className="training-container">
+    <div id="trainings">
+    <div className="training-container">
       <h2 className="training">Upcoming Training Batches</h2>
       <p>(For Fresher's and Working Professionals)</p>
       <div className="training-grid">
@@ -60,7 +61,8 @@ function Trainings() {
         ))}
       </div>
     </div>
-  );
+    </div>
+  )
 }
 
 export default Trainings;

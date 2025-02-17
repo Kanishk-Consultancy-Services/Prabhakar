@@ -57,7 +57,7 @@ const jobs = [
 
 function Jobs() {
   return (
-    <div className="job-container">
+    <div  id="jobsCarrier" className="job-container">
       <h2 className="jobs">Job Opportunities</h2>
       <p>(Apply Now for Top Roles in Leading Companies)</p>
       <div className="job-grid">
